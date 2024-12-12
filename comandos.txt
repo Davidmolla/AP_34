@@ -1,0 +1,11 @@
+1: grep -o 'quijote' fichero.txt | wc -l
+2: grep -vc 'quijote' fichero.txt
+3: grep -roh 'quijote' . | wc -l
+4: grep -rl 'quijote' . | xargs grep -o 'quijote' | wc -l
+5: sed -i 's/panza/barriga/g' fichero.txt
+6: sed -i 's/[Pp]anza/barriga/g' fichero.txt
+7: cut -c 1-4 fichero.txt
+8: head -c 4000 fichero.txt
+9: sed -n '14,25p' fichero.txt
+10: sort -r -f fichero.txt
+
